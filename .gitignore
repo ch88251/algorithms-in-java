@@ -1,0 +1,8 @@
+.allure
+.idea
+*.iml
+target
+.github
+.mvn
+allure-report
+allure-results
