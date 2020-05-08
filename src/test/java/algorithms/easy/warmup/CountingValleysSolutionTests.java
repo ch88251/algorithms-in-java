@@ -2,6 +2,7 @@ package algorithms.easy.warmup;
 
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -14,6 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 @Feature("Warm-up Challenges")
+@DisplayName("Counting Valleys Solution Tests")
 public class CountingValleysSolutionTests {
 
   @ParameterizedTest(name = "Counting Valleys")

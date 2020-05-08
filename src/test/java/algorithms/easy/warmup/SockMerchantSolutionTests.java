@@ -1,6 +1,7 @@
 package algorithms.easy.warmup;
 
 import io.qameta.allure.Feature;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -12,6 +13,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 @Feature("Warm-up Challenges")
+@DisplayName("Sock Merchant Solution Tests")
 public class SockMerchantSolutionTests {
 
   @ParameterizedTest(name = "Given an array of integers {0}, there should be {1} pairs of socks")
